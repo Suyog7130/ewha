@@ -4,7 +4,7 @@
 
 ## 1. Big picture
 
-Before we touch any LIGO-specific system, it helps to have the right mental model.
+Before we touch any LIGO-specific system, it helps to have the right mental picture of terminologies.
 
 - **Local machine**: your laptop or desktop, where you edit code, write papers, and run light tests.  
 - **Remote cluster**: powerful computing resources in a data centre, accessed through the network by Secure Shell (SSH).  
@@ -15,7 +15,7 @@ For LIGO and KAGRA work we add two more pieces:
 - **IGWN identity**: your collaboration identity (LIGO.ORG or KAGRA account) used to authenticate.  
 - **LIGO Data Grid (LDG)**: a distributed set of computing centres (CIT, LHO, LLO, Nemo, Gwave, IUCAA, etc.) that share the same authentication and software environment.
 
-Our aim in this tutorial:
+Our aim in this tutorial is to:
 
 1. Learn basic SSH habits.  
 2. Generate and manage SSH keys.  
@@ -564,7 +564,7 @@ You can share these links with students for deeper reading:
 - SSH key generation tutorial for the LIGO Data Grid.  
 - Duo multi-factor authentication documentation from Caltech or your home institute.  
 - “Getting Started with LIGO” notes such as Eric Thrane’s web page.  
-- Your own blog posts:  
+- My own blog posts:  
   - “Accessing Remote Computing Clusters using Open-SSH”.  
   - “How to use LIGO Data Grid CIT as KAGRA-only Member”.
 

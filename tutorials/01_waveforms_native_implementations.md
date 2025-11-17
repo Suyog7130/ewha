@@ -1,6 +1,6 @@
 # Part 1: Calling Native Waveform Implementations (Tutorial + Notebook)
 
-This Markdown file accompanies the notebook [**GW\_Waveform\_Zoo\_Native\_Implementations.ipynb**](https://suyoggarg.com/ewha/notebooks/GW_Waveform_Zoo_Native_Implementations.ipynb)
+This Markdown file accompanies the notebook [**GW\_Waveform\_Zoo\_Native\_Implementations.ipynb**](https://suyoggarg.com/ewha/notebooks/Part1_GW_Waveform_Zoo_Native_Implementations.ipynb)
 
 ## Quick-start (conda or Colab)
 
@@ -17,8 +17,8 @@ Colab: upload the notebook and run all cells. The first cell performs `pip insta
 
 ## What it covers
 
-- **PyCBC/LALSimulation** models: TaylorF2/F2Ecc, SpinTaylorT4, IMRPhenom*, SEOBNRv4/v4HM, SEOBNRv4_ROM,
-  Phenom+NRTidalv2, SEOBNRv4T_surrogate.
+- **PyCBC/LALSimulation** models: TaylorF2/F2Ecc, SpinTaylorT4, IMRPhenom*, SEOBNRv4/v4HM, SEOBNRv4\_ROM,
+  Phenom+NRTidalv2, SEOBNRv4T\_surrogate.
 - **pySEOBNR**: SEOBNRv5HM / SEOBNRv5PHM / SEOBNRv5EHM.
 - **TEOBResumS** via EOBRun Python bindings.
 - **GWSurrogate**: NRSur7dq4, NRHybSur3dq8.

@@ -842,10 +842,9 @@ div.mermaidTooltip {
 
 <ul>
 <li>Notebook A - Keras: <code>Part3A_Keras_MNIST_CNN.ipynb</code></li>
-<li>Notebook B - TensorFlow Core (GradientTape): <code>Part3B_TensorFlowCore_MNIST_CNN.ipynb</code></li>
-<li>Notebook C - PyTorch: <code>Part3C_PyTorch_MNIST_CNN.ipynb</code></li>
-<li>Notebook D - scikit‑learn (via SciKeras): <code>Part3D_ScikitLearn_SciKeras_MNIST_CNN.ipynb</code></li>
-<li>Comparison notebook: <code>Part3E_Compare_Frameworks.ipynb</code> (reads <code>artifacts/*_metrics.json</code>)</li>
+<li>Notebook B - scikit‑learn (via SciKeras): <code>Part3B_ScikitLearn_SciKeras_MNIST_CNN.ipynb</code></li>
+<li>Notebook C - TensorFlow Core (GradientTape): <code>Part3C_TensorFlowCore_MNIST_CNN.ipynb</code></li>
+<li>Notebook D - PyTorch: <code>Part3D_PyTorch_MNIST_CNN.ipynb</code>- Comparison notebook: <code>Part3E_Compare_Frameworks.ipynb</code> (reads <code>artifacts/*_metrics.json</code>)</li>
 </ul>
 
 <p>All notebooks save plots and metrics into <code>./artifacts/</code> for later comparison.</p>
@@ -856,9 +855,9 @@ div.mermaidTooltip {
 
 <ul>
 <li><strong>Keras</strong>: shortest code and fastest path to a solid CNN; batteries included.</li>
+<li><strong>scikit‑learn</strong> (+ <strong>SciKeras</strong>): lets you use sklearn’s <code>fit/score</code>, CV, and grid‑search around a Keras CNN.</li>
 <li><strong>TensorFlow Core</strong>: full control over training (for custom loops, research, mixed precision, etc.).</li>
 <li><strong>PyTorch</strong>: explicit, pythonic training loop; great research ergonomics and ecosystem.</li>
-<li><strong>scikit‑learn</strong> (+ <strong>SciKeras</strong>): lets you use sklearn’s <code>fit/score</code>, CV, and grid‑search around a Keras CNN.</li>
 </ul>
 
 <p>The comparison notebook summarizes <strong>test accuracy</strong>, <strong>train time</strong>, <strong>parameter count</strong>, and an approximate
@@ -915,20 +914,20 @@ tf.config.list_physical_devices()   # shows CPU/GPU/MPS</code></pre></div></li>
 <h3 id="toc_6">2.3 CUDA vs CPU vs MPS</h3>
 
 <ul>
-<li><strong>CUDA (NVIDIA)</strong>: fastest training; ensure the wheel matches driver/CUDA runtime.</li>
+<li><strong>CUDA (NVIDIA)</strong>: fastest training, ensure the installation wheel matches driver/CUDA runtime.</li>
 <li><strong>MPS (Apple)</strong>: good speedups vs CPU; feature coverage still maturing.</li>
 <li><strong>CPU</strong>: slower but perfectly fine for MNIST demos.</li>
 </ul>
 
 <hr>
 
-<h2 id="toc_7">3) What to show in class</h2>
+<h2 id="toc_7">3) Outline of the session</h2>
 
 <ol>
-<li>Run <strong>A (Keras)</strong> first — quick win; show loss/accuracy plots.</li>
-<li>Open <strong>C (PyTorch)</strong> — point out explicit loops and device placement.</li>
-<li>Show <strong>B (TF Core)</strong> — how to customize training with <code>GradientTape</code>.</li>
-<li>Finish with <strong>D (scikit‑learn)</strong> — fit/score API + tiny grid search.</li>
+<li>Start with <strong>A (Keras)</strong>: quick win, show loss/accuracy plots.</li>
+<li>Continue <strong>B (scikit‑learn)</strong>: fit/score API + tiny grid search.</li>
+<li>Then use <strong>C (TF Core)</strong>: how to customize training with <code>GradientTape</code> etc.?</li>
+<li>Finally with <strong>D (PyTorch)</strong>: point out explicit training loops and device placement.</li>
 <li>Run <strong>E (Compare)</strong> to produce the summary plots/table from the <code>artifacts/*_metrics.json</code> files.</li>
 </ol>
 
@@ -939,7 +938,7 @@ tf.config.list_physical_devices()   # shows CPU/GPU/MPS</code></pre></div></li>
 <ul>
 <li>Keep the same <strong>batch size</strong> and <strong>epochs</strong> when comparing speed.</li>
 <li>For reproducibility, set <code>numpy</code> and framework seeds if you need bitwise‑stable results.</li>
-<li>To try your CNN on <strong>Fashion‑MNIST</strong>, change the dataset imports — the rest of the code stays the same.</li>
+<li>To try your CNN on <strong>Fashion‑MNIST</strong> dataset, change the dataset imports, the rest of the code stays the same.</li>
 </ul>
 
 <p>Enjoy!</p>

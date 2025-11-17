@@ -4,10 +4,9 @@
 Accompanying notebooks:
 
 - Notebook A - Keras: `Part3A_Keras_MNIST_CNN.ipynb`
-- Notebook B - TensorFlow Core (GradientTape): `Part3B_TensorFlowCore_MNIST_CNN.ipynb`
-- Notebook C - PyTorch: `Part3C_PyTorch_MNIST_CNN.ipynb`
-- Notebook D - scikit‑learn (via SciKeras): `Part3D_ScikitLearn_SciKeras_MNIST_CNN.ipynb`
-- Comparison notebook: `Part3E_Compare_Frameworks.ipynb` (reads `artifacts/*_metrics.json`)
+- Notebook B - scikit‑learn (via SciKeras): `Part3B_ScikitLearn_SciKeras_MNIST_CNN.ipynb`
+- Notebook C - TensorFlow Core (GradientTape): `Part3C_TensorFlowCore_MNIST_CNN.ipynb`
+- Notebook D - PyTorch: `Part3D_PyTorch_MNIST_CNN.ipynb`- Comparison notebook: `Part3E_Compare_Frameworks.ipynb` (reads `artifacts/*_metrics.json`)
 
 All notebooks save plots and metrics into `./artifacts/` for later comparison.
 
@@ -16,9 +15,9 @@ All notebooks save plots and metrics into `./artifacts/` for later comparison.
 ## 0) Why four mechanisms?
 
 - **Keras**: shortest code and fastest path to a solid CNN; batteries included.
+- **scikit‑learn** (+ **SciKeras**): lets you use sklearn’s `fit/score`, CV, and grid‑search around a Keras CNN.
 - **TensorFlow Core**: full control over training (for custom loops, research, mixed precision, etc.).
 - **PyTorch**: explicit, pythonic training loop; great research ergonomics and ecosystem.
-- **scikit‑learn** (+ **SciKeras**): lets you use sklearn’s `fit/score`, CV, and grid‑search around a Keras CNN.
 
 The comparison notebook summarizes **test accuracy**, **train time**, **parameter count**, and an approximate
 **effective LOC** (lines of code, measured by introspecting key functions).
@@ -77,18 +76,18 @@ ssh -L 8890:localhost:8890 youruser@remote.host
 
 ### 2.3 CUDA vs CPU vs MPS
 
-- **CUDA (NVIDIA)**: fastest training; ensure the wheel matches driver/CUDA runtime.
+- **CUDA (NVIDIA)**: fastest training, ensure the installation wheel matches driver/CUDA runtime.
 - **MPS (Apple)**: good speedups vs CPU; feature coverage still maturing.
 - **CPU**: slower but perfectly fine for MNIST demos.
 
 ---
 
-## 3) What to show in class
+## 3) Outline of the session
 
-1. Run **A (Keras)** first — quick win; show loss/accuracy plots.
-2. Open **C (PyTorch)** — point out explicit loops and device placement.
-3. Show **B (TF Core)** — how to customize training with `GradientTape`.
-4. Finish with **D (scikit‑learn)** — fit/score API + tiny grid search.
+1. Start with **A (Keras)**: quick win, show loss/accuracy plots.
+2. Continue **B (scikit‑learn)**: fit/score API + tiny grid search.
+3. Then use **C (TF Core)**: how to customize training with `GradientTape` etc.?
+4. Finally with **D (PyTorch)**: point out explicit training loops and device placement.
 5. Run **E (Compare)** to produce the summary plots/table from the `artifacts/*_metrics.json` files.
 
 ---
@@ -97,6 +96,6 @@ ssh -L 8890:localhost:8890 youruser@remote.host
 
 - Keep the same **batch size** and **epochs** when comparing speed.
 - For reproducibility, set `numpy` and framework seeds if you need bitwise‑stable results.
-- To try your CNN on **Fashion‑MNIST**, change the dataset imports — the rest of the code stays the same.
+- To try your CNN on **Fashion‑MNIST** dataset, change the dataset imports, the rest of the code stays the same.
 
 Enjoy!
