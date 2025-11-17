@@ -1,12 +1,12 @@
 
-# Part 3 — End‑to‑End CNN on MNIST (Keras • TensorFlow • PyTorch • scikit‑learn)
+# Part 3: End‑to‑End CNN on MNIST (Keras • scikit‑learn • TensorFlow • PyTorch)
 
-**Deliverables (last updated 2025-11-16)**
+Accompanying notebooks:
 
-- Notebook A — Keras: `Part3A_Keras_MNIST_CNN.ipynb`
-- Notebook B — TensorFlow Core (GradientTape): `Part3B_TensorFlowCore_MNIST_CNN.ipynb`
-- Notebook C — PyTorch: `Part3C_PyTorch_MNIST_CNN.ipynb`
-- Notebook D — scikit‑learn (via SciKeras): `Part3D_ScikitLearn_SciKeras_MNIST_CNN.ipynb`
+- Notebook A - Keras: `Part3A_Keras_MNIST_CNN.ipynb`
+- Notebook B - TensorFlow Core (GradientTape): `Part3B_TensorFlowCore_MNIST_CNN.ipynb`
+- Notebook C - PyTorch: `Part3C_PyTorch_MNIST_CNN.ipynb`
+- Notebook D - scikit‑learn (via SciKeras): `Part3D_ScikitLearn_SciKeras_MNIST_CNN.ipynb`
 - Comparison notebook: `Part3E_Compare_Frameworks.ipynb` (reads `artifacts/*_metrics.json`)
 
 All notebooks save plots and metrics into `./artifacts/` for later comparison.

@@ -1,6 +1,4 @@
-# Accessing the LIGO Data Grid (LDG) Clusters with SSH and Duo MFA
-
-Tutorial for graduate students, half-day hands-on.
+# Part 2: Accessing the LIGO Data Grid (LDG) clusters with SSH and Duo MFA
 
 ---
 
@@ -570,4 +568,4 @@ You can share these links with students for deeper reading:
   - “Accessing Remote Computing Clusters using Open-SSH”.  
   - “How to use LIGO Data Grid CIT as KAGRA-only Member”.
 
-Encourage students to bookmark these and explore them progressively as they start working with real data.
+---
