@@ -2,10 +2,6 @@
 
 Tutorial for graduate students, half-day hands-on.
 
-Author: _(fill in your name)_
-
-Date: _(fill in)_
-
 ---
 
 ## 1. Big picture

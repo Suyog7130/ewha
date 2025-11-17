@@ -29,12 +29,15 @@ The comparison notebook summarizes **test accuracy**, **train time**, **paramete
 
 **Colab:** upload any notebook, run all.  
 **Local conda env (CPU baseline):**
+
 ```bash
 mamba create -n mnist-cnn python=3.11 -c conda-forge -y
 mamba activate mnist-cnn
 mamba install numpy matplotlib scikit-learn scikeras tensorflow pytorch torchvision -c conda-forge -y
 ```
+
 > GPU users should install vendor wheels:
+>
 > - **PyTorch (CUDA):** see `https://pytorch.org/get-started/locally/` and pick the `--index-url` for your CUDA version.
 > - **TensorFlow (CUDA):** install a build matching your CUDA/cuDNN.
 > - **Apple M‑series (MPS):** recent PyTorch supports `mps`; TensorFlow uses the **metal** plugin on macOS.
@@ -44,6 +47,7 @@ mamba install numpy matplotlib scikit-learn scikeras tensorflow pytorch torchvis
 ## 2) Running on a remote server (CPU / MPS / CUDA)
 
 ### 2.1 Headless Jupyter over SSH
+
 ```bash
 # On remote
 conda activate mnist-cnn
@@ -57,17 +61,22 @@ ssh -L 8890:localhost:8890 youruser@remote.host
 ### 2.2 Device selection
 
 - **PyTorch**: the notebooks auto-detect `cuda` → `mps` → `cpu`:
+
   ```python
   device = torch.device("cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu"))
   ```
+  
 - **TensorFlow / Keras**:
+
   ```python
   import tensorflow as tf
   tf.config.list_physical_devices()   # shows CPU/GPU/MPS
   ```
+  
 - If multiple GPUs exist, you can select visibility by `CUDA_VISIBLE_DEVICES=0 python ...` (PyTorch & TF).
 
 ### 2.3 CUDA vs CPU vs MPS
+
 - **CUDA (NVIDIA)**: fastest training; ensure the wheel matches driver/CUDA runtime.
 - **MPS (Apple)**: good speedups vs CPU; feature coverage still maturing.
 - **CPU**: slower but perfectly fine for MNIST demos.
