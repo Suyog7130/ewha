@@ -7,9 +7,9 @@ This Markdown file accompanies the notebook [**GW\_Waveform\_Zoo\_Native\_Implem
 Conda (recommended):
 
 ```bash
-mamba create -n gw-waveforms python=3.11 -c conda-forge -y
-mamba activate gw-waveforms
-mamba install pycbc gwsurrogate teobresums -c conda-forge -y
+conda create -n gw-waveforms python=3.11 -c conda-forge -y
+conda activate gw-waveforms
+conda install pycbc gwsurrogate teobresums -c conda-forge -y
 pip install pyseobnr
 ```
 

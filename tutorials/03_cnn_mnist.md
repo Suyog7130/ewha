@@ -30,9 +30,9 @@ The comparison notebook summarizes **test accuracy**, **train time**, **paramete
 **Local conda env (CPU baseline):**
 
 ```bash
-mamba create -n mnist-cnn python=3.11 -c conda-forge -y
-mamba activate mnist-cnn
-mamba install numpy matplotlib scikit-learn scikeras tensorflow pytorch torchvision -c conda-forge -y
+conda create -n mnist-cnn python=3.11 -c conda-forge -y
+conda activate mnist-cnn
+conda install numpy matplotlib scikit-learn scikeras tensorflow pytorch torchvision -c conda-forge -y
 ```
 
 > GPU users should install vendor wheels:

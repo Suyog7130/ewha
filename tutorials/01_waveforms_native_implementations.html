@@ -844,9 +844,9 @@ div.mermaidTooltip {
 
 <p>Conda (recommended):</p>
 
-<div><pre><code class="language-bash">mamba create -n gw-waveforms python=3.11 -c conda-forge -y
-mamba activate gw-waveforms
-mamba install pycbc gwsurrogate teobresums -c conda-forge -y
+<div><pre><code class="language-bash">conda create -n gw-waveforms python=3.11 -c conda-forge -y
+conda activate gw-waveforms
+conda install pycbc gwsurrogate teobresums -c conda-forge -y
 pip install pyseobnr</code></pre></div>
 
 <p>Colab: upload the notebook and run all cells. The first cell performs <code>pip install</code>.</p>
