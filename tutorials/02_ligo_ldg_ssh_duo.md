@@ -1,5 +1,7 @@
 # Part 2: Accessing the LIGO Data Grid (LDG) clusters with SSH and Duo MFA
 
+*Author: Suyog Garg, Dated: 2025/11/18*
+
 ---
 
 ## 1. Big picture

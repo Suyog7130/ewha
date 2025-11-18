@@ -1,6 +1,8 @@
 
 # Part 3: End‑to‑End CNN on MNIST (Keras • scikit‑learn • TensorFlow • PyTorch)
 
+*Author: Suyog Garg, Dated: 2025/11/18*
+
 Accompanying notebooks:
 
 - Notebook A - Keras: `Part3A_Keras_MNIST_CNN.ipynb`
@@ -99,3 +101,5 @@ ssh -L 8890:localhost:8890 youruser@remote.host
 - To try your CNN on **Fashion‑MNIST** dataset, change the dataset imports, the rest of the code stays the same.
 
 Enjoy!
+
+---
