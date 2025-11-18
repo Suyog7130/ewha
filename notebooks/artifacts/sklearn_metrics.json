@@ -1,8 +1,8 @@
 {
   "framework": "scikit-learn+scikeras",
-  "test_accuracy": 0.9893571428571428,
+  "test_accuracy": 0.9882857142857143,
   "test_loss": NaN,
-  "train_time_sec": 729.0970184159814,
+  "train_time_sec": 666.8104269169853,
   "params": 1199882,
   "epochs": 5,
   "device": "[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]",

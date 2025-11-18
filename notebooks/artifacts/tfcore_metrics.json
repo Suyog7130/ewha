@@ -1,0 +1,10 @@
+{
+  "framework": "tensorflow",
+  "test_accuracy": 0.9904,
+  "test_loss": 0.030543426051735878,
+  "train_time_sec": 143.30108824998024,
+  "params": 1199882,
+  "epochs": 5,
+  "device": "[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]",
+  "effective_loc": 24
+}
