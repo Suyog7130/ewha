@@ -1,0 +1,10 @@
+{
+  "framework": "pytorch",
+  "test_accuracy": 0.9893,
+  "test_loss": 0.03032266552991132,
+  "train_time_sec": 53.95575566700427,
+  "params": 1199882,
+  "epochs": 5,
+  "device": "mps",
+  "effective_loc": 24
+}

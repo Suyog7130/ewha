@@ -1,0 +1,10 @@
+{
+  "framework": "keras",
+  "test_accuracy": 0.991599977016449,
+  "test_loss": 0.029692651703953743,
+  "train_time_sec": 125.71503745799419,
+  "params": 1199882,
+  "epochs": 5,
+  "device": "[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]",
+  "effective_loc": 11
+}
