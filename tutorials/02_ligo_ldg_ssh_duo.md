@@ -560,6 +560,8 @@ You can share these links with students for deeper reading:
   
 - [IGWN Duo multi-factor authentication documentation](https://git.ligo.org/computing/iam/mfa)
 - [Getting Started with LIGO notes by Eric Thrane](https://users.monash.edu.au/~erict/Resources/GettingStartedWithLIGO/)
+
+
 - My own blog posts:  
   - [Accessing Remote Computing Clusters using Open-SSH ](https://suyoggarg.com/posts/2025-03-18-using-ssh-remote-access/) 
   - [How to use LIGO Data Grid CIT as KAGRA-only Member](https://suyoggarg.com/posts/2025-03-14-use-cit-as-kagra/)

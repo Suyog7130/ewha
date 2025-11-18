@@ -7,11 +7,11 @@
 
 Accompanying notebooks:
 
-- Notebook A - Keras: [Part3A\_Keras\_MNIST\_CNN.ipynb](https://suyoggarg.com/notebooks/Part3A_Keras_MNIST_CNN.ipynb)
-- Notebook B - scikit‑learn (via SciKeras): [Part3B\_ScikitLearn\_SciKeras\_MNIST\_CNN.ipynb](https://suyoggarg.com/notebooks/Part3B\_ScikitLearn\_SciKeras\_MNIST\_CNN.ipynb)
-- Notebook C - TensorFlow Core (GradientTape): [Part3C\_TensorFlowCore\_MNIST\_CNN.ipynb](https://suyoggarg.com/notebooks/Part3C\_TensorFlowCore\_MNIST\_CNN.ipynb)
-- Notebook D - PyTorch: [Part3D\_PyTorch\_MNIST\_CNN.ipynb](https://suyoggarg.com/notebooks/Part3D\_PyTorch\_MNIST_CNN.ipynb)
-- Comparison notebook: [Part3E\_Compare\_Frameworks.ipynb](https://suyoggarg.com/notebooks/Part3E_Compare_Frameworks.ipynb) (reads `artifacts/*_metrics.json`)
+- Notebook A - Keras: [Part3A\_Keras\_MNIST\_CNN.ipynb](https://suyoggarg.com/ewha/notebooks/Part3A_Keras_MNIST_CNN.ipynb)
+- Notebook B - scikit‑learn (via SciKeras): [Part3B\_ScikitLearn\_SciKeras\_MNIST\_CNN.ipynb](https://suyoggarg.com/ewha/notebooks/Part3B\_ScikitLearn\_SciKeras\_MNIST\_CNN.ipynb)
+- Notebook C - TensorFlow Core (GradientTape): [Part3C\_TensorFlowCore\_MNIST\_CNN.ipynb](https://suyoggarg.com/ewha/notebooks/Part3C\_TensorFlowCore\_MNIST\_CNN.ipynb)
+- Notebook D - PyTorch: [Part3D\_PyTorch\_MNIST\_CNN.ipynb](https://suyoggarg.com/ewha/notebooks/Part3D\_PyTorch\_MNIST_CNN.ipynb)
+- Comparison notebook: [Part3E\_Compare\_Frameworks.ipynb](https://suyoggarg.com/ewha/notebooks/Part3E_Compare_Frameworks.ipynb) (reads `artifacts/*_metrics.json`)
 
 All notebooks save plots and metrics into `./artifacts/` for later comparison.
 
