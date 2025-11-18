@@ -554,20 +554,14 @@ python3 main.py
 
 This keeps your workflow reproducible and version controlled everywhere.
 
----
-
 ## 11. Further references
 
 You can share these links with students for deeper reading:
-
-- IGWN Computing Guide main page.  
-- LIGO Data Grid overview and access methods.  
-- CIT LDAS site documentation with host lists and environment details.  
-- SSH key generation tutorial for the LIGO Data Grid.  
-- Duo multi-factor authentication documentation from Caltech or your home institute.  
-- “Getting Started with LIGO” notes such as Eric Thrane’s web page.  
+  
+- [IGWN Duo multi-factor authentication documentation](https://git.ligo.org/computing/iam/mfa)
+- [Getting Started with LIGO notes by Eric Thrane](https://users.monash.edu.au/~erict/Resources/GettingStartedWithLIGO/)
 - My own blog posts:  
-  - “Accessing Remote Computing Clusters using Open-SSH”.  
-  - “How to use LIGO Data Grid CIT as KAGRA-only Member”.
+  - [Accessing Remote Computing Clusters using Open-SSH ](https://suyoggarg.com/posts/2025-03-18-using-ssh-remote-access/) 
+  - [How to use LIGO Data Grid CIT as KAGRA-only Member](https://suyoggarg.com/posts/2025-03-14-use-cit-as-kagra/)
 
 ---

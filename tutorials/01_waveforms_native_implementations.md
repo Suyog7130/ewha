@@ -2,6 +2,8 @@
 
 *Author: Suyog Garg, Dated: 2025/11/18*
 
+---
+
 This Markdown file accompanies the notebook [**GW\_Waveform\_Zoo\_Native\_Implementations.ipynb**](https://suyoggarg.com/ewha/notebooks/Part1_GW_Waveform_Zoo_Native_Implementations.ipynb)
 
 ## Quick-start (conda or Colab)

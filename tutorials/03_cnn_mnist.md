@@ -3,6 +3,8 @@
 
 *Author: Suyog Garg, Dated: 2025/11/18*
 
+---
+
 Accompanying notebooks:
 
 - Notebook A - Keras: [Part3A\_Keras\_MNIST\_CNN.ipynb](https://suyoggarg.com/notebooks/Part3A_Keras_MNIST_CNN.ipynb)
@@ -12,8 +14,6 @@ Accompanying notebooks:
 - Comparison notebook: [Part3E\_Compare\_Frameworks.ipynb](https://suyoggarg.com/notebooks/Part3E_Compare_Frameworks.ipynb) (reads `artifacts/*_metrics.json`)
 
 All notebooks save plots and metrics into `./artifacts/` for later comparison.
-
----
 
 ## 0) Why four mechanisms?
 
@@ -92,8 +92,6 @@ ssh -L 8890:localhost:8890 youruser@remote.host
 3. Then use **C (TF Core)**: how to customize training with `GradientTape` etc.?
 4. Finally with **D (PyTorch)**: point out explicit training loops and device placement.
 5. Run **E (Compare)** to produce the summary plots/table from the `artifacts/*_metrics.json` files.
-
----
 
 ## 4) Tips
 

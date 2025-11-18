@@ -2,6 +2,8 @@
 
 *Author: Suyog Garg, Dated: 2025/11/18*
 
+---
+
 This document is an **introductory basics part** for your tutorial series.  
 It covers three things:
 
@@ -11,8 +13,6 @@ It covers three things:
 
 > You do **not** need Anaconda if you will only use Google Colab.  
 > For local work on your own laptop or a lab machine, Anaconda is recommended.
-
----
 
 ## 1. Installing Anaconda
 
@@ -287,8 +287,6 @@ If you want to accelerate training in Part 3:
 3. Save and rerun the first cells.
 
 Your code can then check for GPU devices using the normal TensorFlow or PyTorch APIs.
-
----
 
 ## 7. Summary
 
