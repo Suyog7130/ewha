@@ -292,7 +292,7 @@ Your code can then check for GPU devices using the normal TensorFlow or PyTorch 
 
 - Install Anaconda once per machine.
 - Create a dedicated environment, for example `gwml-env`.
-- Install tutorial dependencies (`part3_requirements.txt`) **inside** that environment.
+- Install tutorial dependencies (`Part3_requirements.txt`) **inside** that environment.
 - Use Jupyter Notebook or JupyterLab from the same environment to run Parts 1 to 3.
 - If a student prefers not to install anything, they can use Google Colab and run the same notebooks there (with a small `!pip install` cell at the top).
 
